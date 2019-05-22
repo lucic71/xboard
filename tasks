@@ -1,0 +1,51 @@
+-adauga comanda de afisare a informatiilor generale despre server
+- detaliere comenzi cu parametri
+              - [eventual informatii suplimentare despre versiunea de firmware care ruleaza pe BMC (IMM2, XCC,... 
+------------------
+
+x>> checkup
+nc: connect to 192.168.1.11 port 22 (tcp) timed out: Operation now in progress
+Server 192.168.1.11 will be removed from servers list!
+
+List of down servers:
+192.168.1.11 1234
+
+==========================================================================================================================
+
+export file csv
+index,type,serverIP,state,firmware level BMC/IMM2, BMC/IMM2 version + release date, fw level UEFI version + release date
+i++,vpd sys [0],serverIP,power state(on/off), vpd fw[0][2+4], vpd fw[2][2+4]
+
+index,type,serverIP,state,firmware level BMC/IMM2, BMC/IMM2 version + release date, fw level UEFI version + release date
+1,7X82CTO2WW,10.241.18.3,on,BMC(Primary),1.90 (2018-06-22),1.30 (2018-06-15)
+2,7X82CTO2WW,10.241.18.4,on,IMM2(Primary),1.90 (2018-06-22),1.30 (2018-06-15)
+
+vpd sys
+
+system> Machine Type-Model             Serial Number                  UUID
+--------------                 ---------                      ----
+7X82CTO2WW                     1234                     1234
+
+vpd fw
+
+system> vpd fw
+Type                     Status       Version      BuildID          ReleaseDate
+----                     ------       -------      -------          -----------
+BMC(Primary)             Active       1.90         12324          2018-06-22
+BMC(Backup)              Inactive     1.90         1234          2018-06-22
+UEFI                     Active       1.30         1234          2018-06-15
+LXPM                     Active       1.00         1234          2017-05-26
+LXPM Windows Drivers     Active       1.00         12434          2017-05-18
+LXPM Linux Drivers       Active       1.00         123445          2017-05-18
+system>
+
+system> vpd fw
+Type                     Status       Version      BuildID          ReleaseDate
+----                     ------       -------      -------          -----------
+IMM2(Primary)            Active       5.30         1234        2019/01/22
+IMM2(Backup)             Inactive     5.11         1234       2018/09/21
+UEFI(Primary)            Active       2.90         1234           2019/02/13
+UEFI(Backup)             Inactive     2.90         1234          2019/02/13
+DSA                      Active       10.3         1234                  2018/05/15
+system>
+

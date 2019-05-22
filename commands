@@ -1,0 +1,78 @@
+system> ?
+               ?  --  Display command list
+       accseccfg  --  Account security configuration
+         adapter  --  Display the information of the PCIe adapters.
+        alertcfg  --  Display or change the BMC global remote alert parameters.
+    alertentries  --  This command manages the recipients of alerts.
+             asu  --  Set UEFI settings
+       autopromo  --  Automated promotion of BMC backup.
+          backup  --  Creates a backup file containing the current system settings.
+           batch  --  Executes CLI commands in a file for configuring settings.
+                      Note: The batch command  is intended to configure settings, not to read them.
+                            Inclusion of commands that do not configure settings may result in errors.
+        clearcfg  --  Resets the BMC to its default settings
+        clearlog  --  Clear BMC event log
+           clock  --  Display/set date, time, GMT offset, and dst setting
+         console  --  Exit CLI, attach to serial console
+        dbgshimm  --  Enable secure debug shell (support personnel use only)
+        dhcpinfo  --  View DHCP server assigned settings
+             dns  --  Displays the current DNS configuration of the BMC.
+          encaps  --  Let BMC quit encapsulation mode
+        ethtousb  --  Display and configure ethernet to ethernet over usb
+                      port mapping
+            exit  --  Exit CLI (log off)
+            fans  --  Displays the fan speed for all system fans
+            ffdc  --  First Failure Data Capture (service data)
+        firewall  --  Display the firewall rules
+           fuelg  --  Display or set power usage settings
+        gprofile  --  Group Profiles
+          hashpw  --  Displays and configures the status of the Thirty-Party Password
+            help  --  Display command list
+         history  --  Display history of last 8 commands
+         hreport  --  Embedded Health Report
+           hwlog  --  Display the hardware activity log entries
+        identify  --  Control system locator LED
+        ifconfig  --  Ethernet and PPP configuration
+            info  --  Display and configure the information associated with the
+                      BMC
+          keycfg  --  Display, add or delete activation keys
+            ldap  --  LDAP configuration
+             led  --  Display LED states.
+             ntp  --  Displays and configures the Network Time Protocol
+         portcfg  --  Serial port configuration.
+     portcontrol  --  Display and control the corresponding port of service
+           ports  --  Display and configure port numbers
+           power  --  Control server power
+         pxeboot  --  Enable or disable pxe next boot status
+         rdmount  --  Remote mount
+         readlog  --  Displays the BMC event log, five entries at a time
+           reset  --  Reset server
+         resetsp  --  Reset BMC
+         restore  --  Restores the system settings using the input backup file.
+restoredefaults  --  Reset all BMC settings to factory defaults
+         sdemail  --  Send service information using e-mail
+          seccfg  --  Firmware rollback
+             set  --  Display or set CLI environment variables
+            smtp  --  Display or set smtp server
+            snmp  --  Enable or disable the SNMP agent
+      snmpalerts  --  This command manages the recipients of snmp alerts
+         spreset  --  Reset BMC
+           srcfg  --  Serial redirection configuration
+          sshcfg  --  Display and configures SSH parameters
+             ssl  --  SSL configuration
+          sslcfg  --  Displays and configures the status of the SSL Server
+                      and SSL Client
+         storage  --  Display and configure the information of the storage.
+     storekeycfg  --  Add or delete storage key repository certificate.
+       syshealth  --  System Health
+           temps  --  Display system temperatures
+         thermal  --  Display and configures the thermal mode policy of the host
+                      system.
+        timeouts  --  Server timeouts configuration
+             tls  --  Set minimum TLS Level
+          usbeth  --  Enable or disable the inband (Ethernet over USB) interface
+           usbfp  --  Front panel USB configuration
+           users  --  User profile configuration
+           volts  --  Displays all the voltages and voltage thresholds
+             vpd  --  Display VPD
+

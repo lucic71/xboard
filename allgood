@@ -1,0 +1,10 @@
+- error checking - loadcfg.py - if xboard.cfg doesn't exist OR it contains invalid entries start with an empty server list and show an error
+- bugul cu afisarea
+- redirect stdout & stderr from commands so they won't be shown to the user
+- include sample xboard.cfg in repo with 1 line stating entries format 
+- show BMC ip for each command output (e.g. server1 ... list of fans info; server 2 ... list of fans info etc)
+- prerequisites: python3, paramiko, libssl-dev, pip3 install cryptography==2.4.2
+
+- la initializare
+              - BMC is up/down - cu nc
+              - daca BMC up, ruleaza 'power status' si verifica daca hostul e up sau down (cele down, vrei sa le pornesc? da/nu)
