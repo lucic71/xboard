@@ -113,8 +113,8 @@ class xBoard(Cmd):
             stderr = stderr.decode('utf-8')
 
             # Fill a dictionary with servers which are down
-            if "Connected" not in stderr:
-            
+            if "succeeded" not in stderr:
+
                 print('Server %s will be removed from servers list!' % \
                         self.servers['server'][i])
 
@@ -705,7 +705,7 @@ class xBoard(Cmd):
         sshLength = len(ssh)
 
         if os.path.isfile('./exported.csv'):
-            with open('exported.csv', 'a+') as exportFile:
+            with open('exported.csv', 'w+') as exportFile:
                 exportFile.write("index,type,ip,state,fw_level,fw_version," + \
                         "release_date, uefi, uefi_release_date"  + "\n")
 
@@ -735,9 +735,7 @@ class xBoard(Cmd):
             csvline.extend(sidefun.fw(self.servers['server'][i], \
                     self.servers['user'][i], self.servers['password'][i], \
                     self.servers['port'][i]))
-   
-            print(csvline)
- 
+
             with open('exported.csv', 'a+') as exportFile:
                 line = ','.join(csvline)
                 exportFile.write(line + '\n')

@@ -1415,3 +1415,117 @@ nc: getaddrinfo for host "bandit.labs.overthewir21.org" port 22: Name or service
 nc: getaddrinfo for host "bandit.labs.overthewir22.org" port 22: Name or service not known
 nc: getaddrinfo for host "fdsa" port 22: Name or service not known
 nc: connect to 1234 port 22 (tcp) failed: Invalid argument
+Informations about checkup at 2019-05-24 19:50
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+nc: getaddrinfo for host "bandit.labs.overthewir4.og" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir6.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir7.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir9.rg" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir10.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir11.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir12.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir13.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir14.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir17.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir18.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir19.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir20.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir21.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir22.org" port 22: Name or service not known
+Connection to 141.85.224.99 22 port [tcp/ssh] succeeded!
+Connection to leviathan.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to leviathan.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+nc: getaddrinfo for host "fdsa" port 22: Name or service not known
+nc: connect to 1234 port 22 (tcp) failed: Invalid argument
+Informations about checkup at 2019-05-24 19:51
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+nc: getaddrinfo for host "bandit.labs.overthewir4.og" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir6.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir7.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir9.rg" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir10.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir11.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir12.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir13.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir14.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir17.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir18.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir19.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir20.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir21.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir22.org" port 22: Name or service not known
+Connection to 141.85.224.99 22 port [tcp/ssh] succeeded!
+Connection to leviathan.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to leviathan.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+nc: getaddrinfo for host "fdsa" port 22: Name or service not known
+nc: connect to 1234 port 22 (tcp) failed: Invalid argument
+Informations about checkup at 2019-05-24 19:52
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to bandit.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+nc: getaddrinfo for host "bandit.labs.overthewir4.og" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir6.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir7.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir9.rg" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir10.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir11.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir12.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir13.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir14.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir17.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir18.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir19.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir20.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir21.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir22.org" port 22: Name or service not known
+Connection to 141.85.224.99 22 port [tcp/ssh] succeeded!
+Connection to leviathan.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+Connection to leviathan.labs.overthewire.org 22 port [tcp/ssh] succeeded!
+nc: getaddrinfo for host "fdsa" port 22: Name or service not known
+nc: connect to 1234 port 22 (tcp) failed: Invalid argument
+Informations about checkup at 2019-05-24 19:54
+nc: getaddrinfo for host "bandit.labs.overthewir4.og" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir5.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir6.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir7.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir8.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir9.rg" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir10.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir11.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir12.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir13.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir14.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir16.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir17.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir18.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir19.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir20.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir21.org" port 22: Name or service not known
+nc: getaddrinfo for host "bandit.labs.overthewir22.org" port 22: Name or service not known
+nc: getaddrinfo for host "fdsa" port 22: Name or service not known
+nc: connect to 1234 port 22 (tcp) failed: Invalid argument

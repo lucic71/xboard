@@ -55,7 +55,7 @@ def powerstatus(server, user, password, port):
 
     try:
         tmp = ssh_stdout.read().splitlines()
-        pwstatus = tmp[0].decode('utf-8')
+        pwstatus = tmp[0][2].decode('utf-8')
     except:
         print("exception powerstatus")
 
