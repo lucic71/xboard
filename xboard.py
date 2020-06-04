@@ -5,7 +5,7 @@ import datetime
 import traceback
 import os
 import sys
-import sidefun
+import utils
 import readline
 import loadcfg
 import subprocess
@@ -139,7 +139,7 @@ class xBoard(Cmd):
                 print(stderr, end='')
 
                 # power status
-                checkPower = sidefun.powerstatus(self.servers['server'][i], \
+                checkPower = utils.powerstatus(self.servers['server'][i], \
                         self.servers['user'][i], self.servers['password'][i], \
                         self.servers['port'][i])
 
@@ -184,7 +184,7 @@ class xBoard(Cmd):
             confirm = input("Y/n: ")
             if confirm is 'Y' or confirm is 'y':
                 for i in range(len(self.off['server'])):
-                    sidefun.poweron(self.off['server'][i], \
+                    utils.poweron(self.off['server'][i], \
                             self.off['user'][i], self.off['password'][i], \
                             self.off['port'][i])
 
@@ -343,13 +343,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('fans', ssh, self.servers)
+            utils.filewrite('fans', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -381,13 +381,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('led', ssh, self.servers)
+            utils.filewrite('led', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -417,13 +417,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('volts', ssh, self.servers)
+            utils.filewrite('volts', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -453,13 +453,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('temps', ssh, self.servers)
+            utils.filewrite('temps', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -488,13 +488,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('adapter', ssh, self.servers)
+            utils.filewrite('adapter', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -523,13 +523,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('fw', ssh, self.servers)
+            utils.filewrite('fw', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -558,13 +558,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('imm', ssh, self.servers)
+            utils.filewrite('imm', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -593,13 +593,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('sys', ssh, self.servers)
+            utils.filewrite('sys', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -628,13 +628,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('dns', ssh, self.servers)
+            utils.filewrite('dns', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -663,13 +663,13 @@ class xBoard(Cmd):
         self.do_checkup(None)
 
         # List of servers from do_conn function
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
 
         argv = options.split(' ')
 
         # If -f option is passed write to xboard.log and return
         if argv[0] == '-f':
-            sidefun.filewrite('ls_release -a', ssh, self.servers)
+            utils.filewrite('ls_release -a', ssh, self.servers)
             return
 
         # If an unknown option is passed display an error message and
@@ -701,7 +701,7 @@ class xBoard(Cmd):
     def do_export(self, inp):
         """Export all data to a csv file. Run checkup first!!!"""
 
-        ssh = sidefun.connect(self.servers)
+        ssh = utils.connect(self.servers)
         sshLength = len(ssh)
 
         if os.path.isfile('./exported.csv'):
@@ -717,7 +717,7 @@ class xBoard(Cmd):
             csvline.append(str(i+1))
 
             # type
-            type_model = sidefun.sys(self.servers['server'][i], \
+            type_model = utils.sys(self.servers['server'][i], \
                     self.servers['user'][i], self.servers['password'][i], \
                     self.servers['port'][i])
             csvline.append(type_model)
@@ -726,13 +726,13 @@ class xBoard(Cmd):
             csvline.append(self.servers['server'][i])
 
             # power state
-            power = sidefun.powerstatus(self.servers['server'][i], \
+            power = utils.powerstatus(self.servers['server'][i], \
                     self.servers['user'][i], self.servers['password'][i], \
                     self.servers['port'][i])
             csvline.append(power.split()[1])
 
             # firmware info
-            csvline.extend(sidefun.fw(self.servers['server'][i], \
+            csvline.extend(utils.fw(self.servers['server'][i], \
                     self.servers['user'][i], self.servers['password'][i], \
                     self.servers['port'][i]))
 
@@ -786,7 +786,7 @@ class xBoard(Cmd):
         if '-u' == inp:
             print('\n')
             for i in range(len(self.off['server'])):
-                sidefun.poweron(self.off['server'][i], \
+                utils.poweron(self.off['server'][i], \
                         self.off['user'][i], self.off['password'][i], \
                         self.off['port'][i])
 
@@ -817,4 +817,3 @@ try:
 except KeyboardInterrupt:
     xBoard().postloop()
     print("\nExit..")
-    sys.exit(0)

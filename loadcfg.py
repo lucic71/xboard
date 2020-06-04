@@ -31,7 +31,7 @@ def loadcfg():
     except EnvironmentError:
         print("Error while trying to open xboard.cfg file")
         print("Check if file xboard.cfg exists!")
-        print("It should be set as a csv file with the following fields:")
+        print("It should be a csv file with the following fields:")
         print("[server],[user],[password],[port]")
 
     # Return the filled dictionary

@@ -12,10 +12,11 @@ stderr = stderr.decode('utf-8')
 
 if "not found" in stderr:
 	install = os.system("sudo apt install python3-pip")
+
 	if install == 0:
 		print("pip3 was successfully installed")
 	elif install != 0:
-		print("pip3 couldnot be installed")
+		print("pip3 could not be installed")
 	
 
 # Check if paramiko module is installed
@@ -32,6 +33,3 @@ if 'paramiko' not in sys.modules:
 		print("paramiko was successfully installed")
 	elif install != 0:
 		print("paramiko couldnot be installed")
-		
-# I was testing for arch linux and saw it has not the nc tool
-# Install furthermore nc 
